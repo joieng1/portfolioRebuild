@@ -1,0 +1,51 @@
+.startTitle {
+    font-size: 10rem;
+}
+
+#startBtn {
+    padding: 20px 60px;
+    font-size: 3rem;
+    border-radius: 40px;
+    background-color: #9fb7b9;
+    border: none;
+}
+
+#startBtn:hover {
+    background-color: #16192c;
+}
+
+/* #welcomePage {
+    visibility: hidden;
+} */
+
+.lmButton {
+    padding: 20px 60px;
+    font-size: 3rem;
+    border-radius: 40px;
+    background-color: #9fb7b9 !important;
+    border: none;
+}
+
+.lmButton:hover {
+    background-color: #16192c;
+}
+
+.spacer1 {
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("https://johnieng.com/images/backdrop.jpeg");
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
