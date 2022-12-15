@@ -1,9 +1,10 @@
 import React from "react";
 import Navbar from "./NavagationBar";
 import Footer from "./Footer";
+
+import { Container, Row, Col, Button } from "react-bootstrap";
 import "./Home.css";
 
-import { Container, Row, Col } from "react-bootstrap";
 function Home() {
     // control the visibility of the start page
     const [show, setShow] = React.useState(true);
@@ -40,7 +41,7 @@ function Home() {
                                         <h1 className="startTitle">
                                             John Ieng
                                         </h1>
-                                        <button className="btn btn-primary btn-lg lmbutton">
+                                        <button className="btn btn-lg lmButton">
                                             <a
                                                 href="about.html"
                                                 className="text-decoration-none text-white"

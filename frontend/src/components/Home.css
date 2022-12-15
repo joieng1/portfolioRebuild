@@ -19,11 +19,11 @@
     font-size: 3rem;
     border-radius: 40px;
     background-color: #9fb7b9 !important;
-    border: none;
+    border: none !important;
 }
 
 .lmButton:hover {
-    background-color: #16192c;
+    background-color: #16192c !important;
 }
 
 .spacer1 {

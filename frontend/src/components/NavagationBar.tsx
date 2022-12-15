@@ -6,13 +6,10 @@ import { faJira } from "@fortawesome/free-brands-svg-icons";
 
 // Bootstrap components
 import { Container } from "react-bootstrap";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 
 //Navbar bootstrap components
 import { Nav } from "react-bootstrap";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
 
 function NavagationBar() {
     return (
