@@ -1,8 +1,6 @@
 import React from "react";
 import { useEffect } from "react";
-import Footer from "./Footer";
 import { Link } from "react-router-dom";
-import Navbar from "./NavagationBar";
 
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "./Home.css";
@@ -17,23 +15,21 @@ function Home() {
     }, []);
     // control the visibility of the start page
     const [show, setShow] = React.useState(true);
-    const [showOthers, setShowOthers] = React.useState(false);
 
     return (
         <div>
-            {showOthers && <Navbar />}
             {/* will display start page at first */}
             {show && (
                 <Container fluid id="header" className="mt-5 mx-0">
                     <Row className="">
                         <div id="start" className="mt-5 text-center col-12">
-                            <button
+                            <Button
                                 id="startBtn"
                                 className="btn btn-primary"
                                 onClick={() => setShow(!show)}
                             >
                                 Welcome
-                            </button>
+                            </Button>
                         </div>
                     </Row>
                 </Container>
@@ -46,31 +42,24 @@ function Home() {
                             <Row className="text-center">
                                 <Col className="">
                                     <Col className="text-center mt-5">
-                                        <h1
-                                            className="startTitle"
-                                            onClick={() =>
-                                                setShowOthers(!showOthers)
-                                            }
-                                        >
+                                        <h1 className="startTitle">
                                             John Ieng
                                         </h1>
-                                        <button className="btn btn-lg lmButton">
+                                        <Button className="btn btn-lg lmButton">
                                             <Link
                                                 to={"/about"}
                                                 className="text-decoration-none text-white"
                                             >
                                                 Learn More
                                             </Link>
-                                        </button>
+                                        </Button>
                                     </Col>
                                 </Col>
                             </Row>
                         </div>
                     </Container>
-                    {/* <Footer /> */}
                 </div>
             )}
-            {showOthers && <Footer />}
         </div>
     );
 }

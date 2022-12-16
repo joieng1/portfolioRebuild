@@ -34,7 +34,7 @@ function NavagationBar() {
                         <LinkContainer to="/">
                             <Nav.Link>Home</Nav.Link>
                         </LinkContainer>
-                        <LinkContainer to="/">
+                        <LinkContainer to="/projects">
                             <Nav.Link>Projects</Nav.Link>
                         </LinkContainer>
                         <LinkContainer to="/about">
