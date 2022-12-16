@@ -4,11 +4,8 @@ import Footer from "./Footer";
 
 // Font Awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faJira, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import {
     faCode,
-    faPhoneSquare,
-    faEnvelopeSquare,
     faMusic,
     faShoePrints,
 } from "@fortawesome/free-solid-svg-icons";
