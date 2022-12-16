@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 
+// Font Awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faJira } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";

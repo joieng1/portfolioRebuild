@@ -11,19 +11,35 @@ import { Container } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
 import Navbar from "react-bootstrap/Navbar";
 
+//react router module
+import { LinkContainer } from "react-router-bootstrap";
+
 function NavagationBar() {
     return (
-        <Navbar id="mainNavbar" collapseOnSelect expand="lg">
+        <Navbar
+            id="mainNavbar"
+            collapseOnSelect
+            expand="lg"
+            className="fixed-top"
+        >
             <Container fluid>
-                <Navbar.Brand href="#home">
-                    <FontAwesomeIcon icon={faJira} />
-                </Navbar.Brand>
+                <LinkContainer to="/">
+                    <Navbar.Brand href="#home">
+                        <FontAwesomeIcon icon={faJira} />
+                    </Navbar.Brand>
+                </LinkContainer>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="#features">Home</Nav.Link>
-                        <Nav.Link href="#pricing">Projects</Nav.Link>
-                        <Nav.Link href="#pricing">About</Nav.Link>
+                        <LinkContainer to="/">
+                            <Nav.Link>Home</Nav.Link>
+                        </LinkContainer>
+                        <LinkContainer to="/">
+                            <Nav.Link>Projects</Nav.Link>
+                        </LinkContainer>
+                        <LinkContainer to="/about">
+                            <Nav.Link>About</Nav.Link>
+                        </LinkContainer>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

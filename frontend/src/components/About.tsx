@@ -1,6 +1,8 @@
 import React from "react";
 import "./About.css";
+import Footer from "./Footer";
 
+// Font Awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faJira, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import {
@@ -117,6 +119,7 @@ function About() {
                     <div className="col-3"></div>
                 </Row>
             </Container>
+            <Footer />
         </div>
     );
 }
