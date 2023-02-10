@@ -3,7 +3,7 @@ import "./Footer.css";
 
 // Font Awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faJira } from "@fortawesome/free-brands-svg-icons";
+import { faJira, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faPhoneSquare } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelopeSquare } from "@fortawesome/free-solid-svg-icons";
@@ -29,21 +29,27 @@ function Footer() {
                 <Col className=" text-center py-4">
                     <a
                         className="px-3 px-md-5 text-decoration-none text-white"
-                        href="https://www.instagram.com/john._ie/?hl=en"
+                        href="https://www.instagram.com/john._ie/?hl=en" target={"_blank"} rel="noreferrer"
                     >
                         <FontAwesomeIcon icon={faInstagram} size={"3x"} />
                     </a>
                     <a
                         className="px-3 px-md-5 text-decoration-none text-white"
-                        href="mailto:johncieng1@gmail.com"
+                        href="mailto:johncieng1@gmail.com" target={"_blank"} rel="noreferrer"
                     >
                         <FontAwesomeIcon icon={faEnvelopeSquare} size={"3x"} />
                     </a>
                     <a
                         className="px-3 px-md-5 text-decoration-none text-white"
-                        href="tel:415-830-4853"
+                        href="tel:415-830-4853" target={"_blank"} rel="noreferrer"
                     >
                         <FontAwesomeIcon icon={faPhoneSquare} size={"3x"} />
+                    </a>
+                    <a
+                        className="px-3 px-md-5 text-decoration-none text-white"
+                        href="https://www.linkedin.com/in/johnieng" target={"_blank"} rel="noreferrer"
+                    >
+                        <FontAwesomeIcon icon={faLinkedin} size={"3x"} />
                     </a>
                 </Col>
             </Row>
