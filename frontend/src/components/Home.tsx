@@ -45,14 +45,13 @@ function Home() {
                                         <h1 className="startTitle">
                                             John Ieng
                                         </h1>
-                                        <Button className="btn btn-lg lmButton">
-                                            <Link
+                                        <Link
                                                 to={"/about"}
                                                 className="text-decoration-none text-white"
-                                            >
-                                                Learn More
-                                            </Link>
-                                        </Button>
+                                            ><Button className="btn btn-md lmButton">
+                                            Learn More
+                                        </Button></Link>
+                                        
                                     </Col>
                                 </Col>
                             </Row>

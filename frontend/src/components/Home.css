@@ -18,9 +18,9 @@
 }
 
 .lmButton {
-    padding: 20px 60px;
-    font-size: 3rem;
-    border-radius: 40px;
+    padding: 10px 30px !important;
+    font-size: 1.5rem !important;
+    border-radius: 40px !important;
     background-color: #9fb7b9 !important;
     border: none !important;
 }
