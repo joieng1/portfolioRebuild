@@ -21,7 +21,7 @@ export default function Projects() {
           title="Yum's Recipes"
           description="This website was implemented with the MERN stack."
           image={YumImage}
-          link=""
+          link="https://yumsrecipes.netlify.app/"
         />
       </Container>
       <Footer />
