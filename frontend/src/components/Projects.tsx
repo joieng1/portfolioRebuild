@@ -3,7 +3,7 @@ import Footer from "./FooterFixed";
 import "./Projects.css";
 import ProjectCard from "./ProjectCard";
 
-function Projects() {
+export default function Projects() {
   return (
     <div>
       <Container fluid className="mt-5">
@@ -21,5 +21,3 @@ function Projects() {
     </div>
   );
 }
-
-export default Projects;

@@ -21,7 +21,7 @@ import sweezylogo from "../images/sweezylogo.png";
 import violinbg from "../images/violinbg.png";
 import sneaker from "../images/sneaker.png";
 
-function About() {
+export default function About() {
   return (
     <div>
       <header className="container-fluid mt-5">
@@ -119,5 +119,3 @@ function About() {
     </div>
   );
 }
-
-export default About;

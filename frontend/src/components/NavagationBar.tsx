@@ -13,7 +13,7 @@ import Navbar from "react-bootstrap/Navbar";
 // react router module
 import { LinkContainer } from "react-router-bootstrap";
 
-function NavagationBar() {
+export default function NavagationBar() {
   return (
     <Navbar id="mainNavbar" collapseOnSelect expand="lg" className="fixed-top">
       <Container fluid>
@@ -40,5 +40,3 @@ function NavagationBar() {
     </Navbar>
   );
 }
-
-export default NavagationBar;
