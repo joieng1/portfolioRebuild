@@ -5,46 +5,40 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faJira } from "@fortawesome/free-brands-svg-icons";
 
 // Bootstrap components
-import { Container } from "react-bootstrap";
+import { Container, Nav } from "react-bootstrap";
 
-//Navbar bootstrap components
-import { Nav } from "react-bootstrap";
+// Navbar bootstrap components
 import Navbar from "react-bootstrap/Navbar";
 
-//react router module
+// react router module
 import { LinkContainer } from "react-router-bootstrap";
 
 function NavagationBar() {
-    return (
-        <Navbar
-            id="mainNavbar"
-            collapseOnSelect
-            expand="lg"
-            className="fixed-top"
-        >
-            <Container fluid>
-                <LinkContainer to="/">
-                    <Navbar.Brand href="#home">
-                        <FontAwesomeIcon icon={faJira} />
-                    </Navbar.Brand>
-                </LinkContainer>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="me-auto">
-                        <LinkContainer to="/">
-                            <Nav.Link>Home</Nav.Link>
-                        </LinkContainer>
-                        <LinkContainer to="/projects">
-                            <Nav.Link>Projects</Nav.Link>
-                        </LinkContainer>
-                        <LinkContainer to="/about">
-                            <Nav.Link>About</Nav.Link>
-                        </LinkContainer>
-                    </Nav>
-                </Navbar.Collapse>
-            </Container>
-        </Navbar>
-    );
+  return (
+    <Navbar id="mainNavbar" collapseOnSelect expand="lg" className="fixed-top">
+      <Container fluid>
+        <LinkContainer to="/">
+          <Navbar.Brand href="#home">
+            <FontAwesomeIcon icon={faJira} />
+          </Navbar.Brand>
+        </LinkContainer>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="me-auto">
+            <LinkContainer to="/">
+              <Nav.Link>Home</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/projects">
+              <Nav.Link>Projects</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/about">
+              <Nav.Link>About</Nav.Link>
+            </LinkContainer>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
 }
 
 export default NavagationBar;
