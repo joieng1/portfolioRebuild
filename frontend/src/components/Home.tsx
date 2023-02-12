@@ -51,7 +51,6 @@ function Home() {
                                             ><Button className="btn btn-md lmButton">
                                             Learn More
                                         </Button></Link>
-                                        
                                     </Col>
                                 </Col>
                             </Row>

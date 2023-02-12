@@ -53,8 +53,8 @@ function About() {
                             <img
                                 className="img-fluid"
                                 src={sweezylogo}
-                                alt="Picture of sweezy logo"
                                 width="300"
+                                alt="sweezy logo"
                             />
                         </div>
                     </div>
@@ -81,7 +81,7 @@ function About() {
                                 className="img-fluid"
                                 src={violinbg}
                                 width="300"
-                                alt="image of violin"
+                                alt="violin"
                             />
                         </div>
                     </div>
@@ -109,7 +109,7 @@ function About() {
                                 className="img-fluid"
                                 src={sneaker}
                                 width="300"
-                                alt="image of sneaker"
+                                alt="sneaker"
                             />
                         </div>
                     </div>
