@@ -8,7 +8,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 //Components
 import Navbar from "./components/NavagationBar";
-import Footer from "./components/Footer";
 import About from "./components/About";
 import Projects from "./components/Projects";
 

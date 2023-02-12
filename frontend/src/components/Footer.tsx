@@ -3,7 +3,6 @@ import "./Footer.css";
 
 // Font Awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faJira, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faPhoneSquare } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelopeSquare } from "@fortawesome/free-solid-svg-icons";
