@@ -1,7 +1,9 @@
 import { Container, Row, Col } from "react-bootstrap";
-import Footer from "./FooterFixed";
+import Footer from "./Footer";
 import "./Projects.css";
 import ProjectCard from "./ProjectCard";
+
+import YumImage from "../images/yumProject.png";
 
 export default function Projects() {
   return (
@@ -14,8 +16,13 @@ export default function Projects() {
         </Row>
       </Container>
       <Container fluid className="projectList mx-0">
-        <p className="text-center">Work in progress</p>
-        <ProjectCard title="Hello" description="" image="" link="" />
+        {/* <p className="text-center">Work in progress</p> */}
+        <ProjectCard
+          title="Yum's Recipes"
+          description="This website was implemented with the MERN stack."
+          image={YumImage}
+          link=""
+        />
       </Container>
       <Footer />
     </div>
