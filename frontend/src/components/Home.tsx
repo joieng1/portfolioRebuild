@@ -20,7 +20,7 @@ function Home() {
         <div>
             {/* will display start page at first */}
             {show && (
-                <Container fluid id="header" className="mt-5 mx-0">
+                <Container fluid className="mt-5 mx-0">
                     <Row className="">
                         <div id="start" className="mt-5 text-center col-12">
                             <Button
@@ -37,11 +37,11 @@ function Home() {
             {/* display welcome page after "Welcome" btn is clicked */}
             {!show && (
                 <div>
-                    <Container fluid id="welcomePage" className="px-0 parallax">
-                        <div className="spacer1">
-                            <Row className="text-center">
-                                <Col className="">
-                                    <Col className="text-center mt-5">
+                    <Container fluid className="px-0 parallax">
+                        <Row className="text-center">
+                            <Col>
+                                <div className="spacer1">
+                                    <div className="homeItems">
                                         <h1 className="startTitle">
                                             John Ieng
                                         </h1>
@@ -51,10 +51,10 @@ function Home() {
                                             ><Button className="btn btn-md lmButton">
                                             Learn More
                                         </Button></Link>
-                                    </Col>
-                                </Col>
-                            </Row>
-                        </div>
+                                    </div>
+                                </div>
+                            </Col>
+                        </Row>
                     </Container>
                 </div>
             )}
