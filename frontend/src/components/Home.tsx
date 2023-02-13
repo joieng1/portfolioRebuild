@@ -1,19 +1,12 @@
-import React, { useEffect } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "./Home.css";
 
 export default function Home() {
-  useEffect(() => {
-    document.body.style.overflow = "hidden";
-    // Applying on mount
-    return () => {
-      document.body.style.overflow = "visible";
-    };
-  }, []);
   // control the visibility of the start page
-  const [show, setShow] = React.useState(true);
+  const [show, setShow] = useState(true);
 
   return (
     <div>
@@ -41,7 +34,7 @@ export default function Home() {
               <Col className="px-0">
                 <div className="spacer1">
                   <div className="homeItems">
-                    <h1 className="startTitle">John Ieng</h1>
+                    <h1 className="startTitle">s</h1>
                     <Link
                       to="/about"
                       className="text-decoration-none text-white"
