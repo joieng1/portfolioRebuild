@@ -34,7 +34,7 @@ export default function Home() {
               <Col className="px-0">
                 <div className="spacer1">
                   <div className="homeItems">
-                    <h1 className="startTitle">s</h1>
+                    <h1 className="startTitle">John Ieng</h1>
                     <Link
                       to="/about"
                       className="text-decoration-none text-white"
