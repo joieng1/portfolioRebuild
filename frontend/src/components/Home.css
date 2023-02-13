@@ -1,67 +1,67 @@
 .startTitle {
-    font-size: 10rem;
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
+  font-size: 10rem;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 
 #startBtn {
-    padding: 20px 60px;
-    font-size: 3rem;
-    border-radius: 40px;
-    background-color: #9fb7b9;
-    border: none;
+  padding: 20px 60px;
+  font-size: 3rem;
+  border-radius: 40px;
+  background-color: #9fb7b9;
+  border: none;
 }
 
 #startBtn:hover {
-    background-color: #16192c;
+  background-color: #16192c;
 }
 
 .lmButton {
-    padding: 10px 30px !important;
-    font-size: 1.5rem !important;
-    border-radius: 40px !important;
-    background-color: #9fb7b9 !important;
-    border: none !important;
+  padding: 10px 30px !important;
+  font-size: 1.5rem !important;
+  border-radius: 40px !important;
+  background-color: #9fb7b9 !important;
+  border: none !important;
 }
 
 .lmButton:hover {
-    background-color: #16192c !important;
+  background-color: #16192c !important;
 }
 
 .spacer1 {
-    height: 1000px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.7);
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .parallax {
-    /* The image used */
-    background-image: url("../images/backdrop.jpeg");
-    /* Full height */
-    height: 100%;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* The image used */
+  background-image: url("../images/backdrop.jpeg");
+  /* Full height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .homeItems {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 @media screen and (max-width: 400px) {
-    .startTitle {
-        font-size: 7rem;
-    }
+  .startTitle {
+    font-size: 7rem;
+  }
 }
 @media screen and (min-height: 1000px) {
-    .spacer1 {
-        height: 1500px;
-    }
+  .spacer1 {
+    height: 1500px;
+  }
 }

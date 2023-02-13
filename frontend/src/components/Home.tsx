@@ -37,8 +37,8 @@ export default function Home() {
       {!show && (
         <div>
           <Container fluid className="px-0 parallax">
-            <Row className="text-center">
-              <Col>
+            <Row className="mx-0 text-center">
+              <Col className="px-0">
                 <div className="spacer1">
                   <div className="homeItems">
                     <h1 className="startTitle">John Ieng</h1>
